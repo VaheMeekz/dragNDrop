@@ -1,0 +1,75 @@
+.App {
+  padding: 50px;
+}
+
+.dragBox {
+  display: flex;
+  flex-wrap: wrap;
+  border: 4px dashed darkcyan;
+  margin-top: 10px;
+  position: relative;
+}
+
+.dragBoxTitleBox {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: -1;
+  position: absolute;
+}
+
+.dragBoxTitleBox h2 {
+  color: darkcyan;
+  opacity: 0.5;
+  font-size: 30px;
+}
+
+.drag-item {
+  width: 150px;
+  border: 2px solid darkcyan;
+  border-radius: 10px;
+  color: darkcyan;
+  font-size: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 20px 10px;
+  flex-direction: column;
+}
+
+.drag-item:hover {
+  background: darkcyan;
+  cursor: pointer;
+  color: white;
+  transition: 0.2s;
+}
+
+.btn {
+  padding: 10px;
+  background: white;
+  border: 1px solid darkcyan;
+  border-radius: 10px;
+  color: darkcyan;
+  font-size: 20px;
+}
+
+.btn:hover {
+  cursor: pointer;
+  background: darkcyan;
+  color: white;
+  transition: 0.2s;
+}
+
+.controller {
+  border: 1px solid darkcyan;
+  border-radius: 3px;
+  padding: 5px;
+  margin: 5px;
+}
+
+.controller:hover {
+  background: white;
+  color: darkcyan;
+}
